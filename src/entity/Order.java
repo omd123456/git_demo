@@ -2,18 +2,18 @@ package entity;
 
 import java.sql.Date;
 /**
- * 实体类
- * @author 遥不可及
+ * 瀹炰綋绫�
+ * @author 閬ヤ笉鍙強
  *
  */
 public class Order {
-    public int id;//主键
-    public String code;//订单编号
-    public String name;//商品名称
-    public String supplier;//供应商
-    public double money;//订单金额
-    public int isPayment;//是否支付
-    public Date time;//创建时间
+    public int id;//涓婚敭
+    public String code;//璁㈠崟缂栧彿
+    public String name;//鍟嗗搧鍚嶇О
+    public String supplier;//渚涘簲鍟�
+    public double money;//璁㈠崟閲戦
+    public int isPayment;//鏄惁鏀粯
+    public Date time;//鍒涘缓鏃堕棿
     
 	public int getId() {
 		return id;

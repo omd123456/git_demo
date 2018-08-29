@@ -24,7 +24,7 @@ import service.OrderService;
 
 
 @Controller
-@RequestMapping("/user")  //Çø·ÖÄ£¿é£¬ÊÇ½â¾ö¶à¸ö·ÃÎÊÂ·¾¶Ãû×ÖÏàÍ¬
+@RequestMapping("/user")  //ï¿½ï¿½ï¿½Ä£ï¿½é£¬ï¿½Ç½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬
 public class IndexController{
 
 	@Autowired
@@ -57,8 +57,7 @@ public class IndexController{
 			ye = ii;
 		}
 		
-		System.out.println("Ò³Êý:"+i);
-		System.out.println("×Ü¼ÇÂ¼Êý:"+ii);
+		
 		page.setTotalCount(i);
 		request.setAttribute("totalCount", ii);
 		page.setTotalPageCount(ii);
