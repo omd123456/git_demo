@@ -2,18 +2,18 @@ package entity;
 
 import java.sql.Date;
 /**
- * ÊµÌåÀà
- * @author Ò£²»¿É¼°
+ * å®ä½“ç±»
+ * @author é¥ä¸å¯åŠ
  *
  */
 public class Order {
-    public int id;//Ö÷¼ü
-    public String code;//¶©µ¥±àºÅ
-    public String name;//ÉÌÆ·Ãû³Æ
-    public String supplier;//¹©Ó¦ÉÌ
-    public double money;//¶©µ¥½ğ¶î
-    public int isPayment;//ÊÇ·ñÖ§¸¶
-    public Date time;//´´½¨Ê±¼ä
+   // public int id;//ä¸»é”®
+    public String code;//è®¢å•ç¼–å·
+    public String name;//å•†å“åç§°
+    public String supplier;//ä¾›åº”å•†
+    public double money;//è®¢å•é‡‘é¢
+    public int isPayment;//æ˜¯å¦æ”¯ä»˜
+    public Date time;//åˆ›å»ºæ—¶é—´
     
 	public int getId() {
 		return id;
